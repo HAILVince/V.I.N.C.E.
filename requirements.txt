@@ -1,0 +1,21 @@
+# V.I.N.C.E — Python dependencies
+# Install core: pip install -r requirements.txt
+# Install all:  pip install -r requirements.txt -r requirements-optional.txt
+
+# ── Required ─────────────────────────────────────────────────────────────────
+openai>=1.10.0              # LLM API (OpenAI-compatible)
+
+# ── Strongly recommended ─────────────────────────────────────────────────────
+duckduckgo-search>=4.0.0   # search_online tool
+requests>=2.28.0            # scrape_website, http_request tools
+beautifulsoup4>=4.12.0      # scrape_website tool
+
+# ── Voice / TTS ──────────────────────────────────────────────────────────────
+pyttsx3>=2.90               # Text-to-speech (offline, uses SAPI5 on Windows)
+SpeechRecognition>=3.10.0  # Push-to-talk speech recognition
+pyaudio>=0.2.13             # Microphone access (required by SpeechRecognition)
+# Note: pyaudio on Windows may require:
+#   pip install pipwin && pipwin install pyaudio
+
+# ── Optional extras ──────────────────────────────────────────────────────────
+psutil>=5.9.0               # get_system_info tool (CPU/RAM/disk stats)

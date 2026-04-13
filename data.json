@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "current_theme": "Arc Reactor",
+  "current_profile": "default",
+  "current_model": "Qwen_Qwen3-8B-Q4_K_M.gguf",
+  "known_models": [
+    "llama2_7b_chat_uncensored.Q5_K_M.gguf",
+    "qwen2.5-coder-1.5b-instruct-q8_0.gguf",
+    "Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf",
+    "Qwen_Qwen3-8B-Q4_K_M.gguf"
+  ],
+  "window_geometry": "1280x697",
+  "llm": {
+    "base_url": "http://127.0.0.1:8080",
+    "temperature": 0.2,
+    "max_tokens": 2048,
+    "top_p": 0.8,
+    "repeat_penalty": 1.2,
+    "stream": true,
+    "max_ctx_messages": 60,
+    "max_log_lines": 80,
+    "max_tool_iters": 16
+  },
+  "server": {
+    "exe_path": "D:\\JARVIS\\VINCE\\llama.cpp-vulkan\\llama-server.exe",
+    "models_dir": "D:\\JARVIS\\VINCE\\models\\",
+    "port": 8080,
+    "ctx_size": 2048,
+    "gpu_layers": 99,
+    "extra_args": "",
+    "auto_start": true,
+    "model_path": "D:\\JARVIS\\VINCE\\models\\llama2_7b_chat_uncensored.Q5_K_M.gguf"
+  },
+  "tts": {
+    "enabled": true,
+    "voice_id": "",
+    "rate": 175,
+    "volume": 1.0,
+    "auto_read": true
+  },
+  "stt": {
+    "enabled": false,
+    "auto_send": true,
+    "energy_threshold": 300
+  },
+  "profiles": {
+    "default": {
+      "name": "Vince (USER)",
+      "avatar": "X",
+      "system_extra": "",
+      "user_backstory": "",
+      "theme": "VINCE Dark",
+      "created": "2026-04-01"
+    }
+  }
+}

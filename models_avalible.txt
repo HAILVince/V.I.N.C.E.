@@ -1,0 +1,2 @@
+llama2_7b_chat_uncensored.Q5_K_M.gguf
+Qwen_Qwen3-8B-Q4_K_M.gguf
