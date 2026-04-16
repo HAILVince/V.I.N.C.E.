@@ -19,7 +19,7 @@ V.I.N.C.E. is created and maintained by **Vince**, a 16-year-old developer from 
 Ensure you have Python installed. You can install the required core packages by running:
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### Third-Party Software
 This project includes compiled binaries from [llama.cpp](https://github.com/ggerganov/llama.cpp) (located in the `llama.cpp-vulkan` folder) to run the AI models. 
